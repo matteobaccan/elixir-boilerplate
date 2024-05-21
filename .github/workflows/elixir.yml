@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up Elixir
-      uses: erlef/setup-beam@f780b590674e61941bc38460be2562fa47a7c4df
+      uses: erlef/setup-beam@cb77d7338547977855176f5da2f47c7656f50faa
       with:
         elixir-version: '1.12.3' # Define the elixir version [required]
         otp-version: '24' # Define the OTP version [required]
